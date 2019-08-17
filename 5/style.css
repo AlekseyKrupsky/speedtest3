@@ -1,0 +1,62 @@
+canvas {
+    width: 500px;
+    height: 500px;
+    border: 1px solid  black;
+}
+
+.colors > div {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.colors > div.active {
+    border: 2px solid black;
+}
+
+.colors {
+    width: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.panel {
+    width: 500px;
+}
+
+#red {
+    background: red;
+}
+
+#blue {
+    background: blue;
+}
+
+#green {
+    background: green;
+}
+
+#yellow {
+    background: yellow;
+}
+
+#orange {
+    background: orange;
+}
+
+#brown {
+    background: brown;
+}
+
+#purple {
+    background: purple;
+}
+
+.rubber {
+    border: 1px solid black;
+    width: max-content;
+    cursor: pointer;
+}

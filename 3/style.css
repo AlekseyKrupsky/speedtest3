@@ -1,0 +1,57 @@
+html,body {
+    background: #29303b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.animation {
+    display: flex;
+    flex-direction: row;
+    width: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.animation div {
+    width: 6px;
+    height: 50px;
+    background: lightseagreen;
+
+}
+
+.animation div:first-of-type {
+    animation: anim1 1s infinite;
+}
+.animation div:nth-of-type(2) {
+    animation: anim1 1s infinite;
+    animation-delay: 0.25s;
+}
+.animation div:nth-of-type(3) {
+    animation: anim1 1s infinite;
+    animation-delay: 0.5s;
+}
+.animation div:nth-of-type(4) {
+    animation: anim1 1s infinite;
+    animation-delay: 0.75s;
+}
+
+
+
+
+@keyframes anim1 {
+
+    0% {
+        height: 50px;
+    }
+
+    50% {
+        height: 20px;
+    }
+
+    100% {
+        height: 50px;
+    }
+
+}

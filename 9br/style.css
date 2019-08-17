@@ -1,0 +1,19 @@
+.image {
+    /*width: 450px;*/
+    height: auto;
+    position: relative;
+}
+
+.image img {
+    /*width: 100%;*/
+}
+
+.crop {
+    left:10px;
+    top:10px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: rgba(255,255,255,0.3);
+    border: 1px solid rgba(127,127,127,0.3);
+}

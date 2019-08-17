@@ -1,0 +1,54 @@
+.calendar {
+    position: absolute;
+    /*display: flex;*/
+    flex-direction: column;
+    width: 200px;
+    border: 1px solid #5dd6ff;
+    padding: 5px;
+    margin-top: 10px;
+    display: none;
+}
+
+.left,.right {
+    cursor: pointer;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.weekdays{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.days {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.day {
+    width: 14.2%;
+    text-align: center;
+    color: #b4b4b4;
+    cursor: pointer;
+}
+
+.today.thismonth {
+    background: rgba(139, 245, 243, 0.5);
+    color: #5549f2;
+
+}
+
+.thismonth {
+    color: #333333;
+}
+
+.day.selected {
+    outline: 1px solid #5549f2;
+}

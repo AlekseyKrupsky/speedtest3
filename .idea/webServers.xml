@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="4b60d250-4e67-474b-aae2-7c0059a0e1c5" name="alex" url="http://alextourpraga.com.uvirt72.active24.cz">
+        <fileTransfer host="alextourpraga.com.uvirt72.active24.cz" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
